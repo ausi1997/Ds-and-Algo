@@ -6,7 +6,8 @@
 
 What is the time & space complexity of the following code:
 Also explain your answer?
-    (a)
+
+     (a)
       let a = 0, b = 0;
 
       for (let i = 0; i < n; ++i) {
