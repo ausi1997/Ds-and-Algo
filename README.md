@@ -32,10 +32,10 @@ Also explain your answer?
       while (i > 0) {
       a += i;
       i /= 2;
+      }
 
       #(d)
       var value = 0;
       for(var i=0;i<n;i++)
       for(var j=0;j<i;j++)
       value += 1;
-}
