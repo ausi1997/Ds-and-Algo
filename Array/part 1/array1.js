@@ -2,12 +2,12 @@
 
 // using sorting method
 
-function minandmax(arr , n){
+function minandmax(arr){
     arr.sort();
-    console.log('max no. : '+ arr[n]);
+    console.log('max no. : '+ arr[arr.length-1]);
     console.log('min no. : ' + arr[0]);
 }
-minandmax([7,9,2,4,6], 4);
+minandmax([7,9,2,4,6]);
 
 // using max and min method
 
@@ -23,7 +23,7 @@ console.log(minandmax1([7,9,2,4,6]));
 
 function max(arra){
     var max = -Infinity;
-    for(var i = 0; i <=arra.length; i++){
+    for(var i = 0; i <arra.length; i++){
         if(arra[i]>max){
             max = arra[i];
         }
