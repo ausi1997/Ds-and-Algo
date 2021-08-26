@@ -22,3 +22,16 @@
    }
 
    console.log(union([1, 3, 4, 5, 7],[2, 3, 5, 6]));
+
+
+   function intersection(arr1 , arr2){
+     var newArray = [];
+     for(var i=0; i<arr1.length; i++){
+       if(arr2.includes(arr1[i])){
+         newArray.push(arr1[i]);
+       }
+     }
+     return newArray;
+   }
+
+   console.log(intersection([1,3,4,5,7] , [2,3,5,6]));
