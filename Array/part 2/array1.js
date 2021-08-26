@@ -10,4 +10,4 @@ function rotation(arr , n ){
     return newArray;
 }
 
-console.log(rotation([1,2,3,4,5] , 2));
+console.log(rotation([1,2] , 2));
