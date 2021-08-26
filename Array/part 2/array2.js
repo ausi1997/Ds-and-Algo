@@ -13,4 +13,4 @@ function missing(arr){
     return missingno;
 }
 
-console.log(missing([2,3,4,5,6,7,9,10]));
+console.log(missing([1,2,3,4,5,6,7,9,10]));
