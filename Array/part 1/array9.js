@@ -23,7 +23,8 @@
 
    console.log(union([1, 3, 4, 5, 7],[2, 3, 5, 6]));
 
-
+  // intersection
+  
    function intersection(arr1 , arr2){
      var newArray = [];
      for(var i=0; i<arr1.length; i++){
